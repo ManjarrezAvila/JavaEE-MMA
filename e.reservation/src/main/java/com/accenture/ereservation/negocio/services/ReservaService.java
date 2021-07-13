@@ -12,7 +12,6 @@ import com.platzi.ereservation.negocio.repository.ReservaRepository;
 
 /**
  * Clase para definir los servicios de reserva
- * @author martosfre
  *
  */
 @Service

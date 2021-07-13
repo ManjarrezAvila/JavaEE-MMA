@@ -13,14 +13,10 @@ import org.springframework.data.repository.query.Param;
 import com.platzi.ereservation.modelo.Cliente;
 import com.platzi.ereservation.modelo.Reserva;
 
-/**
- * @author martosfre
- *
- */
 public interface ReservaRepository extends JpaRepository<Reserva, String> {
 
 	/**
-	 * Método para consultar las reservas por cliente
+	 * Metodo para consultar las reservas por cliente
 	 * 
 	 * @param cliente
 	 * @return
@@ -40,9 +36,10 @@ public interface ReservaRepository extends JpaRepository<Reserva, String> {
 	public List<Reserva> find(@Param("fechaInicio") Date fechaInicio, @Param("fechaSalida") Date fechaSalida);
 
 	/**
-	 * Definición de método para buscar una reserva por su código
+	 * Definicion de metodo para buscar una reserva por su codigo
 	 * @param codigoReserva
 	 * @return
 	 */
 	public Reserva findByCodigoRes(String codigoReserva);
 }
+

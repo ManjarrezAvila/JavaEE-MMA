@@ -20,7 +20,6 @@ import lombok.Data;
 
 /**
  * Clase que representa la tabla reserva
- * @author martosfre
  *
  */
 @Data

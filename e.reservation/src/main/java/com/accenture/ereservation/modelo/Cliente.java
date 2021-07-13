@@ -18,7 +18,6 @@ import lombok.Data;
 
 /**
  * Clase que representa la tabla Cliente
- * @author martosfre
  *
  */
 @Data

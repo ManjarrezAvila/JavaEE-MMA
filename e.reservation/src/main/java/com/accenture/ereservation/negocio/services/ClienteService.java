@@ -14,7 +14,6 @@ import com.platzi.ereservation.negocio.repository.ClienteRepository;
 /**
  * Clase para definir los servicios de cliente
  * 
- * @author martosfre
  *
  */
 @Service

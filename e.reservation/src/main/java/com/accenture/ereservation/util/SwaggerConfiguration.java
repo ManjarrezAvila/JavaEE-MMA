@@ -12,7 +12,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * Clase para configurar Swagger
  * 
- * @author martosfre
  *
  */
 @Configuration

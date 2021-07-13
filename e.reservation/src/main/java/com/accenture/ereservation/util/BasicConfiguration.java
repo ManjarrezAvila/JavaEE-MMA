@@ -15,7 +15,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 /**
  * Clase para manejar el tema de seguridad
  * 
- * @author martosfre
  *
  */
 @Configuration
