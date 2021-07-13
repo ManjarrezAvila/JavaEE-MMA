@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this course we learn about 
+In this course we learn how to develop java applications with Spring and Hibernate. We make an application with an MVC design pattern, using spring boot, spring data JPA and spring security to handle the security of the services.
 
 ## Dependencies
 
